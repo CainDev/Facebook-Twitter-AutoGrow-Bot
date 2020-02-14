@@ -48,12 +48,12 @@ a bot that pirates music and uploads it so use this at your own discretion.
     > Type "pip install requests"
 
 > Songs
-    > Drag .mp3s into this folder. MUST FOLLOW THIS NAMING PATTERN [song_name_like_this.mp3]
+    > Drag .mp3s into this folder. MUST FOLLOW THIS NAMING PATTERN
         > All songs will be saved in old-songs.txt in the [Settings] folder. Just so you know what has been posted.
     > Small hint for you >COPY WHATS SUCCESSFUL<
 
 > Videos
-    > Drag .mp4s into this folder.
+    > Drag .mp4 into this folder.
 
 > Ffmpeg
     > Download from https://www.ffmpeg.org/
