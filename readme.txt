@@ -48,7 +48,7 @@ a bot that pirates music and uploads it so use this at your own discretion.
     > Type "pip install requests"
 
 > Songs
-    > Drag .mp3s into this folder. MUST FOLLOW THIS NAMING PATTERN
+    > Drag .mp3s into this folder.
         > All songs will be saved in old-songs.txt in the [Settings] folder. Just so you know what has been posted.
     > Small hint for you >COPY WHATS SUCCESSFUL<
 
