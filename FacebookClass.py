@@ -38,12 +38,6 @@ def post_video():
         print(e)
 
 
-def delete_video():
-    print("Deleting Video from HDD")
-    os.remove("completed/{}".format(MuxingClass.song_name[:-4] + ".mp4"))
-    print("Removed!")
-
-
 def comment_under_video():
     print("WIP")
 

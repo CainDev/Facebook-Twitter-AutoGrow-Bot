@@ -2,7 +2,7 @@ from twilio.rest import Client
 from twilio.base.exceptions import TwilioRestException
 
 account_information = []
-sms_initiated = False
+sms_initiated = True
 send_messages = True  # Set to false if you want to disable Twilio
 
 

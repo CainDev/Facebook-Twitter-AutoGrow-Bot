@@ -9,6 +9,9 @@ import time
 import TwilioClass
 song_name = ""
 
+# Variables
+delete_song = True
+
 
 def _check_song_count():
     song_count = 0
@@ -29,7 +32,8 @@ def _pick_song():
         song_list.append(name)
 
     if len(song_list) == 1:
-        cmd_line = 'ffmpeg -i "videos/zeze.mp4" -i "songs"/"{}" -shortest "completed"/"{}".mp4'.format(song_list[0], song_list[0][:-4])
+        video_number = random.randint(1, 2)
+        cmd_line = 'ffmpeg -i "videos/{}.mp4" -i "songs"/"{}" -shortest "completed"/"{}".mp4'.format(video_number, song_list[0], song_list[0][:-4])
         print("Muxing Video with {}".format(song_list[0][:-4]))
         subprocess.call(cmd_line, shell=False)
         print("Muxing Complete!")
@@ -39,10 +43,12 @@ def _pick_song():
             songs.writelines(song_list[0][:-4] + "\n")
         songs.close()
 
-        #  os.remove("songs/" + song_list[0])
+        if delete_song:
+            os.remove("songs/" + song_list[0])
     else:
         random_song = random.randint(0, len(song_list) - 1)
-        cmd_line = 'ffmpeg -i "videos/zeze.mp4" -i "songs"/"{}" -shortest "completed"/"{}".mp4'.format(song_list[random_song], song_list[random_song][:-4])
+        video_number = random.randint(1, 2)
+        cmd_line = 'ffmpeg -i "videos/{}.mp4" -i "songs"/"{}" -shortest "completed"/"{}".mp4'.format(video_number, song_list[random_song], song_list[random_song][:-4])
         print("Muxing Video with {}".format(song_list[random_song][:-4]))
         subprocess.call(cmd_line, shell=False)
         print("Muxing Complete!")
@@ -51,8 +57,8 @@ def _pick_song():
         with open("settings/old-songs.txt", "a+") as songs:
             songs.writelines(song_list[random_song][:-4] + "\n")
         songs.close()
-
-        #  os.remove("songs/" + song_list[random_song])
+        if delete_song:
+            os.remove("songs/" + song_list[random_song])
 
 
 def mux_video():

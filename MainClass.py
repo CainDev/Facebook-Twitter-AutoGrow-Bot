@@ -9,11 +9,18 @@ from datetime import timedelta
 import MuxingClass
 import TwilioClass
 import FacebookClass
+import TwitterClass
 
 # Global Variables
 bot_running = True
-post_delay = 7200
+post_delay = 7200  # Seconds
+delete_videos = False
 
+
+def delete_video():
+    print("Deleting Video from HDD")
+    os.remove("completed/{}".format(MuxingClass.song_name[:-4] + ".mp4"))
+    print("Removed!")
 
 
 def calculate_remaining_posts():
@@ -40,10 +47,12 @@ def main_bot():
     MuxingClass.mux_video()
 
     # Post Video
-    FacebookClass.post_video()
+    # FacebookClass.post_video()
+    TwitterClass.post_video()
 
     # Delete Video
-    #  FacebookClass.delete_video()
+    if delete_videos:
+        delete_video()
 
     # Sleep
     print("Sleeping for {} minutes.".format(str((post_delay / 60))))
