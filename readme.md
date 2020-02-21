@@ -45,17 +45,19 @@ a bot that pirates music and uploads it so use this at your own discretion.
 
 > Requests (requests)
 
+> Tweepy
+
+> FacebookSDK
+
 ## [Set-Up]
 > FacebookClass.py
     > Line 27
         > Use your Pages ID/Name in the "url" variable
 
-> Settings Folder
-    > twiliosettings.txt (Fill with Your Number, Account SID, Account AUTH & Account Phone Number)
-
-    > facebooksettings.txt (Fill with Your Access Token, App ID, App Secret)
-            
-    > twittersettings.txt (Fill with your Consumer Key, Consumer Secret, Access Token and Access Token Secret)
+### [Settings Folder]
+> twiliosettings.txt (Fill with Your Number, Account SID, Account AUTH & Account Phone Number)
+> facebooksettings.txt (Fill with Your Access Token, App ID, App Secret)            
+> twittersettings.txt (Fill with your Consumer Key, Consumer Secret, Access Token and Access Token Secret)
 
 > Open CMD
     > Type "pip install twilio"
@@ -64,14 +66,13 @@ a bot that pirates music and uploads it so use this at your own discretion.
 > Songs
     > Drag .mp3s into this folder.
         > All songs will be saved in old-songs.txt in the [Settings] folder. Just so you know what has been posted.
-    > Small hint for you >COPY WHATS SUCCESSFUL<
 
 > Videos
     > Drag .mp4 into this folder.
 
 > Ffmpeg
     > Download from https://www.ffmpeg.org/
-        > Include it to Windows Path
+        (Include it to Windows Path)
 
 
 ---
