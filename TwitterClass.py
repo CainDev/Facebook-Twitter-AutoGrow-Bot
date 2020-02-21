@@ -41,8 +41,9 @@ def post_video():
 
         print("Video uploaded, waiting for processing...")
         uploaded = True
-        sleep(15)
 
+    sleep(15)
+    
     try:
         print("Trying to post video now...")
         Api.update_status(status="{} \n\n"
