@@ -56,7 +56,9 @@ a bot that pirates music and uploads it so use this at your own discretion.
 
 ### [Settings Folder]
 > twiliosettings.txt (Fill with Your Number, Account SID, Account AUTH & Account Phone Number)
-> facebooksettings.txt (Fill with Your Access Token, App ID, App Secret)            
+
+> facebooksettings.txt (Fill with Your Access Token, App ID, App Secret)        
+
 > twittersettings.txt (Fill with your Consumer Key, Consumer Secret, Access Token and Access Token Secret)
 
 > Open CMD
