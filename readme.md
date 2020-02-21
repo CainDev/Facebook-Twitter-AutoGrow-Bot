@@ -57,6 +57,7 @@ a bot that pirates music and uploads it so use this at your own discretion.
 > Open CMD
     > Type "pip install twilio"
     > Type "pip install requests"
+    > Type "pip install facebook-sdk"
 
 > Songs
     > Drag .mp3s into this folder.
@@ -75,6 +76,13 @@ a bot that pirates music and uploads it so use this at your own discretion.
 > facebooksettings.txt (Fill with Your Access Token, App ID, App Secret)        
 
 > twittersettings.txt (Fill with your Consumer Key, Consumer Secret, Access Token and Access Token Secret)
+
+
+## Installing [Tweepy] 
+
+(Unfortunately Twitter is very rude about video uploads and you have to use a modified tweepy library)
+
+Thanks to user braian87b for making a library that makes it easy to upload video. https://github.com/braian87b/tweepy
 
 ---
 
