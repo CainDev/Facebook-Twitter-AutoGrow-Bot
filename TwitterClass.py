@@ -33,11 +33,15 @@ Api = tweepy.API(OAuth())
 
 
 def post_video():
-    print("Uploading Video...")
-    upload_result = Api.media_upload("completed/{}.mp4".format(MuxingClass.song_name[:-4]))
+    uploaded = False
 
-    print("Video uploaded, waiting for processing...")
-    sleep(15)
+    if not uploaded:
+        print("Uploading Video...")
+        upload_result = Api.media_upload("completed/{}.mp4".format(MuxingClass.song_name[:-4]))
+
+        print("Video uploaded, waiting for processing...")
+        uploaded = True
+        sleep(15)
 
     try:
         print("Trying to post video now...")
@@ -47,6 +51,7 @@ def post_video():
                           media_ids=[upload_result.media_id_string]
                           )
         print("Video Posted!")
+        uploaded = False
     except Exception as e:
         print("Twitter is still processing the video, sleeping for 15 seconds then trying again...")
         post_video()
