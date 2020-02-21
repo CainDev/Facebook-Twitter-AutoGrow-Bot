@@ -8,8 +8,11 @@ so please excuse any coding errors, mistakes or simply things done in-efficientl
 
 This is a very simple bot that was made to try Auto-Grow a Facebook page. You have already probably seen pages like
 this before, below are some examples
+
 ;- https://www.facebook.com/109998523716480/
+
 ;- https://www.facebook.com/inbetweenersdances/
+
 ;- https://www.facebook.com/DisagioAndDepressione/
 
 The bot will take the Video from the 'videos' folder and Mux it with a song from the 'songs' folder. Then proceed to
@@ -42,8 +45,6 @@ a bot that pirates music and uploads it so use this at your own discretion.
 
 > Requests (requests)
 
------
-
 ## [Set-Up]
 > FacebookClass.py
     > Line 27
@@ -72,9 +73,20 @@ a bot that pirates music and uploads it so use this at your own discretion.
     > Download from https://www.ffmpeg.org/
         > Include it to Windows Path
 
-====
 
-Very rough Design-Doc
+---
+
+Twitter Profile using this bot:
+
+> https://twitter.com/KdakBlack
+
+Facebook Page using this bot:
+
+> https://www.facebook.com/KdakBlack/
+
+---- 
+
+Very rough Design-Doc (+ random brainstorming)
 
 <img src="https://i.ibb.co/HB6fHSq/design.jpg">
 <img src="https://i.ibb.co/0VV3zfZ/design2.jpg">
