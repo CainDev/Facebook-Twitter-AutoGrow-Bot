@@ -53,14 +53,7 @@ a bot that pirates music and uploads it so use this at your own discretion.
 > FacebookClass.py
     > Line 27
         > Use your Pages ID/Name in the "url" variable
-
-### [Settings Folder]
-> twiliosettings.txt (Fill with Your Number, Account SID, Account AUTH & Account Phone Number)
-
-> facebooksettings.txt (Fill with Your Access Token, App ID, App Secret)        
-
-> twittersettings.txt (Fill with your Consumer Key, Consumer Secret, Access Token and Access Token Secret)
-
+        
 > Open CMD
     > Type "pip install twilio"
     > Type "pip install requests"
@@ -76,6 +69,12 @@ a bot that pirates music and uploads it so use this at your own discretion.
     > Download from https://www.ffmpeg.org/
         (Include it to Windows Path)
 
+### [Settings Folder]
+> twiliosettings.txt (Fill with Your Number, Account SID, Account AUTH & Account Phone Number)
+
+> facebooksettings.txt (Fill with Your Access Token, App ID, App Secret)        
+
+> twittersettings.txt (Fill with your Consumer Key, Consumer Secret, Access Token and Access Token Secret)
 
 ---
 
