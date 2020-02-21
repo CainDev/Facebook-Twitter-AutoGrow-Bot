@@ -62,4 +62,6 @@ a bot that pirates music and uploads it so use this at your own discretion.
 ====
 
 Very rough Design-Doc
-<img src="https://i.ibb.co/HB6fHSq/design.jpg"><img src="https://i.ibb.co/0VV3zfZ/design2.jpg">
+
+<img src="https://i.ibb.co/HB6fHSq/design.jpg">
+<img src="https://i.ibb.co/0VV3zfZ/design2.jpg">
