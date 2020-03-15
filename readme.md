@@ -96,6 +96,15 @@ Facebook Page using this bot:
 
 ---- 
 
+## Appreciate the software and wanna buy me a coffee?
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VZFLC3GAW3KCW&source=url">
+  <img src="https://i.ibb.co/HB6LPDP/QR-code.png">
+</a>
+
+(Click to open link.)
+
+----
+
 Very rough Design-Doc (+ random brainstorming)
 
 <img src="https://i.ibb.co/HB6fHSq/design.jpg">
