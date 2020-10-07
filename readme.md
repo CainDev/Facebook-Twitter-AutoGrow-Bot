@@ -105,3 +105,4 @@ Very rough Design-Doc (+ random brainstorming)
 
 <img src="https://i.ibb.co/HB6fHSq/design.jpg">
 <img src="https://i.ibb.co/0VV3zfZ/design2.jpg">
+
